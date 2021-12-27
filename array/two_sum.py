@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/two-sum/
+
 # nums -> [2,7,11,15]
 # target -> 9
 # Iterating over elements. num=2 -> another number should be diff=(9-2)=7. It could appear
