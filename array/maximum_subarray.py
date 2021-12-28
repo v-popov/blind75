@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/maximum-subarray/submissions/
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         max_sum = nums[0] # can't set to 0, as nums can contain negative values

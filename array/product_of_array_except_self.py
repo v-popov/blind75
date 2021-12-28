@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/product-of-array-except-self/
+
 # Input: nums=[1,2,3,4]
 # After forward pass: answer -> [1, 1, 2, 6]
 # After backward pass: answer -> [24,12,8,6]
