@@ -1,9 +1,14 @@
 # https://leetcode.com/problems/two-sum/
 
-# nums -> [2,7,11,15]
+# nums -> [2, 6, 7, 4]
 # target -> 9
-# Iterating over elements. num=2 -> another number should be diff=(9-2)=7. It could appear
-# either before the current num, or after it -> save the differences and their positions to a hashmap.
+
+# Iterating over elements
+# num=2 -> another number should be diff=(9-2)=7. 
+# It could appear only after the current num, since 2 is the first number in the array.
+# We will store the difference and the position of the current element in a hash map,
+# unless this element equals to the difference that we've observed before.
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         differences = {}
